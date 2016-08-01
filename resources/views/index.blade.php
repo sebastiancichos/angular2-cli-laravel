@@ -23,14 +23,14 @@
 <body>
 <main-app>Loading...</main-app>
 
-<script src="vendor/es6-shim/es6-shim.js"></script>
-<script src="vendor/reflect-metadata/Reflect.js"></script>
-<script src="vendor/systemjs/dist/system-polyfills.js"></script>
-<script src="vendor/systemjs/dist/system.src.js"></script>
-<script src="vendor/zone.js/dist/zone.js"></script>
+<script src="{{ URL::asset('vendor/es6-shim/es6-shim.js') }}"></script>
+<script src="{{ URL::asset('vendor/reflect-metadata/Reflect.js') }}"></script>
+<script src="{{ URL::asset('vendor/systemjs/dist/system-polyfills.js') }}"></script>
+<script src="{{ URL::asset('vendor/systemjs/dist/system.src.js') }}"></script>
+<script src="{{ URL::asset('vendor/zone.js/dist/zone.js') }}"></script>
 
 <script>
-    System.import('system-config.js').then(function () {
+    System.import('{{ URL::asset('system-config.js') }}').then(function () {
         System.import('main');
     }).catch(console.error.bind(console));
 </script>
