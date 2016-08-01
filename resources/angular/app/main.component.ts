@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['main.component.css']
 })
 export class MainAppComponent {
-  title = 'main works!';
+  title = 'już wkrótce... wiedz, że coś się dzieje!';
 }
