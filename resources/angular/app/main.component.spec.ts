@@ -17,6 +17,6 @@ describe('App: Main', () => {
 
   it('should have as title \'main works!\'',
       inject([MainAppComponent], (app: MainAppComponent) => {
-    expect(app.title).toEqual('main works!');
+    expect(app.title).toEqual('już wkrótce... wiedz, że coś się dzieje!');
   }));
 });
