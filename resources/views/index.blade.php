@@ -52,7 +52,7 @@
 <div class="container">
     <div class="content">
         <main-app>Wczytywanie...</main-app>
-        <div class="title">Laravel 5</div>
+        <div class="title">SEBA.<small>space</small></div>
     </div>
 </div>
 
